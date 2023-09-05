@@ -9,7 +9,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 35px 250px 0px 200px;
+  margin: 35px 230px 0px 160px;
 }
 nav > ul {
   display: flex;
@@ -74,16 +74,20 @@ nav a {
 .icon-fast-line img {
   height: 100px;
   width: 100px;
-  margin: 0px 60px 0px;
+  margin: 0px 50px 10px 50px;
 }
 
 .icon-second-line img {
   height: 100px;
   width: 100px;
-  margin: 60px 60px 0px;
+  margin: 60px 50px 10px 50px;
 }
 
 /* projects-container  */
+
+.main-container {
+  align-items: center;
+}
 
 .projects-title {
   text-align: center;
@@ -141,16 +145,15 @@ nav a {
 }
 
 .projects-container {
-  align-items: center;
+  justify-content: center;
   display: flex;
-  gap: 75px;
-  margin-left: 200px;
-  margin-top: 80px;
+  gap: 50px;
+  margin: 90px 100px -30px;
 }
 
 .projects {
   width: 375px;
-  height: 567px;
+  height: 560px;
   border-radius: 20px;
   background: #fff;
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
@@ -160,9 +163,9 @@ nav a {
 
 .main-footer {
   margin-top: 160px;
-  margin-left: 200px;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: #42446e;
   font-size: 18px;
   font-weight: 400;
@@ -171,19 +174,22 @@ nav a {
 .footer-information {
   display: flex;
   gap: 90px;
-  margin-left: 600px;
-  margin-right: 100px;
+  margin-left: 555px;
+  margin-right: 50px;
 }
 
 .hr {
-  width: 78%;
-  margin-left: 200px;
+  justify-content: center;
+  width: 80%;
+  margin-left: 145px;
   margin-top: 15px;
 }
 
 .last-footer {
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px -30px 50px -80px;
 }
 
 .last-btn {
@@ -193,5 +199,4 @@ nav a {
   color: #42446e;
   font-size: 18px;
   font-weight: 400;
-  margin: 20px 480px 50px 160px;
 }
